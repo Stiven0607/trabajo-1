@@ -1,75 +1,17 @@
+<?php
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <style>
-        body {
-            background-color: black;
-            color: antiquewhite;
-            overflow-x: hidden;
-        }
-
-        
-        #barra {
-            display: none;
-        }
-
-        .toggle-btn{
-            position: fixed;
-            top: 15px;
-            left: 15px;
-            z-index: 1000;
-        }
-
-        
-        .sidebar {
-            width: 220px;
-            min-height: 100vh;
-            transition: margin-left 0.3s ease;
-        }
-
-        #barra:checked ~ .d-flex .sidebar {
-            margin-left: -220px;
-        }
-        img{
-            height: 200px;
-            width: 200px;
-        }
-    </style>
 </head>
 <body>
 
-<input type="checkbox" id="barra">
-
-<div class="d-flex">
-
-    <div class="sidebar bg-warning text-white p-3">
-        <label for="barra" class="btn btn-dark toggle-btn">
-            ☰
-        </label>
-        <h4 class="text-center">Menú</h4>
-        <hr>
-        <ul class="nav nav-pills flex-column">
-            <li class="nav-item">
-                <a class="nav-link text-white active" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="formulario.html">Registro</a>
-
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="productos.html">productos</a>
-
-            </li>
-        </ul>
-
-    </div>
-
-<body>
+<?php 
+include'navbar.html';
+?>
     <div class="container bg-danger">
     <div class="row p-3 m-auto">
 

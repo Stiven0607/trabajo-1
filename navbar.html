@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Inicio</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
         body {
             background-color: black;
-            overflow-x: hidden;
             color: antiquewhite;
+            overflow-x: hidden;
         }
 
+        
         #barra {
             display: none;
         }
@@ -24,6 +25,7 @@
             z-index: 1000;
         }
 
+        
         .sidebar {
             width: 220px;
             min-height: 100vh;
@@ -41,7 +43,7 @@
 
 <div class="d-flex">
 
-    <div class="sidebar bg-dark text-white p-3">
+    <div class="sidebar bg-warning text-white p-3">
         <label for="barra" class="btn btn-dark toggle-btn">
             ☰
         </label>
@@ -49,20 +51,24 @@
         <hr>
         <ul class="nav nav-pills flex-column">
             <li class="nav-item">
-                <a class="nav-link text-white active" href="index.html">Inicio</a>
+                <a class="nav-link text-white active" href="index.php">Inicio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white" href="formulario.html">Registro</a>
+                <a class="nav-link text-white" href="formulario.php">Registro</a>
+
+            </li>
+             <li class="nav-item">
+                <a class="nav-link text-white" href="formulariomoto.php">Registro moto</a>
+
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="productos.php">productos</a>
+
             </li>
         </ul>
+
     </div>
-
-    <div class="container p-4">
-        <h2>Inicio</h2>
-        <p>Buenas</p>
-    </div>
-
-</div>
-
+<body>
+    
 </body>
 </html>
